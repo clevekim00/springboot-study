@@ -1,7 +1,7 @@
 package me.clevekim.study.springboot.bootstrap.controller;
 
-import me.clevekim.study.springboot.bootstrap.BookIdMismatchException;
-import me.clevekim.study.springboot.bootstrap.BookNotFoundException;
+import me.clevekim.study.springboot.bootstrap.exception.BookIdMismatchException;
+import me.clevekim.study.springboot.bootstrap.exception.BookNotFoundException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

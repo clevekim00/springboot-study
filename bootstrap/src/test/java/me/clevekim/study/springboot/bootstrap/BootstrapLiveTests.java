@@ -2,7 +2,7 @@ package me.clevekim.study.springboot.bootstrap;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import me.clevekim.study.springboot.bootstrap.model.Book;
+import me.clevekim.study.springboot.bootstrap.persistance.model.Book;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

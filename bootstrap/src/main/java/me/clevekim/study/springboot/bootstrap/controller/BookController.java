@@ -1,9 +1,9 @@
 package me.clevekim.study.springboot.bootstrap.controller;
 
-import me.clevekim.study.springboot.bootstrap.BookIdMismatchException;
-import me.clevekim.study.springboot.bootstrap.BookNotFoundException;
-import me.clevekim.study.springboot.bootstrap.model.Book;
-import me.clevekim.study.springboot.bootstrap.repo.BookRepository;
+import me.clevekim.study.springboot.bootstrap.exception.BookIdMismatchException;
+import me.clevekim.study.springboot.bootstrap.exception.BookNotFoundException;
+import me.clevekim.study.springboot.bootstrap.persistance.model.Book;
+import me.clevekim.study.springboot.bootstrap.persistance.repo.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;

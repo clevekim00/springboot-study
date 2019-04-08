@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableJpaRepositories("me.clevekim.study.springboot.bootstrap.repo")
-@EntityScan("me.clevekim.study.springboot.bootstrap.model")
+@EnableJpaRepositories("me.clevekim.study.springboot.bootstrap.persistance.repo")
+@EntityScan("me.clevekim.study.springboot.bootstrap.persistance.model")
 @SpringBootApplication
 public class BootstrapApplication {
 
